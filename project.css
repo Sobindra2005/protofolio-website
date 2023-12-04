@@ -2,18 +2,22 @@
   @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Nunito:wght@600&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+  body{
+  background-color:rgb(0, 0, 0);
+  
+  }
 
 .front{
-    background-image: url(image/ke2dhfpj.png);
+    background-image: url(image/pexels-craig-adderley-1563355.jpg);
+    height: 800px;
     background-repeat: no-repeat;
     background-size:cover ;
     margin:-8px;
     margin-top:-22px;
-}
-body{
-  background-color:black;
 
 }
+
+
 
 .nav1{
     justify-content: center;
