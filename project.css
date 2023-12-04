@@ -51,16 +51,18 @@
     color: rgb(165, 171, 177);
     font-size: 21px;
 }
+/* sidebar main div */
 .mediacontact{
-  position: absolute;  
- bottom:210px;
- right:15px;
+ position: fixed;
+ top: 100px;
+ bottom: 100px;
 }
 #facebook,#instagram,#github{
     width:42px;
 }
 #mail{
     width:28px;
+    margin-left: 4px;
 }
 #linkedin{
     width:42px;
@@ -68,17 +70,35 @@
 #mail:hover,#facebook:hover,#instagram:hover,#github:hover,#linkedin:hover{
     filter: invert(100%);
 }
-#facebook,#instagram,#github,#mail,#linkedin{
-    transition:all 0.3s ease-in 0s;
+  #facebook,#instagram,#github,#mail,#linkedin{ 
+    transition:all 0.3s ease-in 0s;     
 }  
-  #facebook1{ 
-    visibility:hidden;
-  
+.link{
+    text-decoration: none;
+    color: aliceblue;
 }
- #facebook:hover #facebook1{
-visibility:visible ;
-} 
+/* for sidebar  */
+.fac{
+    position: absolute;
+    visibility: hidden;
+    bottom: 10px;
+    border: 1px solid red; 
+    border-radius: 10px;
+    background-color:#fd4f2b;
+    font-size: larger;
+    padding: 5px;
+    margin: 2px;
+    text-align: left;
+    text-transform: capitalize;
+    
+    
+}
+/* for sidebar */
+.face:hover .fac{
+    position: relative;
+    visibility: visible;
 
+}
 .button a {
     cursor: pointer;
     background-color: rgb(32, 31, 31);
